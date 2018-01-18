@@ -1,0 +1,322 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Dancing Script', cursive; "arial", helvita;
+}
+
+html
+{
+	background-color: #02010a;
+}
+
+@keyframes animacion{
+		0% {
+		margin-top: 150%;
+	}
+	60% {
+	    margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
+
+#content-principal{
+	width: 100%;
+	-webkit-animation: animacion 1s;
+}
+
+.cabecera{
+	border-radius: 10px 10px 0 0;
+			-moz-border-radius:10px 10px 0 0;
+		-webkit-border-radius:10px 10px 0 0;
+	margin-left:  auto;
+	margin-right: auto;
+	height: 80px;
+	width: 900px;
+	background-color: #5b7989;
+}
+
+h4{
+	text-shadow: 2px 2px 0 #02010a; 
+	line-height: 90px;
+	letter-spacing: 3px;
+	margin-left: 4%;
+	float: left;
+  font-size: 1.5em;
+  color: white;
+}
+
+nav > ul  li{
+	line-height: 90px;
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.5em;
+	margin-left: 10px;
+	float: right;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+figcaption a{
+	  text-decoration: underline;
+	   color: black;
+		margin-right: 1em;
+		margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+
+#foto-index{
+width: 900px;
+height: 350px;
+margin: auto;
+background-color: #82c3a6;
+text-align: center;
+}
+
+
+#foto1{
+margin-top: 30px;
+width: 80%;
+height: 80%;
+box-shadow: 2px 2px 3px #02010a;
+
+}
+
+
+#foto-secundaria2{
+text-align: center;
+display: flex;
+width: 900px;
+margin: auto;
+background-color: #d5c75f ;
+
+}
+
+
+#foto2{
+box-shadow:2px 1px 0px 2px #02010a;
+margin-top: 25px;
+margin-left: 3px;
+width:80%;
+
+order: 1;
+
+}
+
+#foto2:hover{
+    border:none;
+	cursor: pointer;
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+
+}
+
+#foto3{
+box-shadow:2px 2px 0px 2px #02010a;
+margin-top: 20px;
+margin-right: 25px;
+width: 80%;
+order: 2;
+}
+
+#foto3:hover{
+	box-shadow: 2px 2px #82c3a6;
+	cursor: pointer;
+	transform: translate(20px, -5px);
+}
+
+#footer{
+	background: #C6d5c5;
+	width: 900px;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	border-radius: 0 0 10px 10px ;
+			-moz-border-radius: 0 0 10px 10px ;
+		-webkit-border-radius:0 0 10px 10px ;
+}
+
+#contenedor{
+	display: flex;
+	margin-left: : 20px;
+ 	margin-right: : auto;
+ 	text-align: left;
+}
+
+#contenedor ul{
+   width: 20%;
+   margin:2%;
+	
+}
+
+li[class^='titulo']{
+	list-style: none;
+	font-size: 1.5em;
+}
+
+ li[class^='item']{
+ 	list-style: none;
+	margin-bottom: 4px;
+}
+
+.face{
+	width: 13px;
+}
+
+.instagram{
+	width: 13px;
+}
+
+.whatsapp{
+	width: 13px;
+}
+#ico{
+
+width: 9px;
+
+}
+
+
+
+
+
+
+@media(max-width: 900px){
+
+	#content-principal{
+     min-width: 325px;
+	}
+
+	.cabecera{
+	   display: flex;
+	flex-direction: column;
+		margin-right: auto;
+		margin-left: auto;
+		align-items: center;
+		width: 100%;
+		height: 100px;
+		overflow:hidden;
+}
+
+header h4{
+	height: 40px;
+	width: 300px;
+	margin: 0;
+	text-align: center;
+		letter-spacing: 0;
+	
+
+}
+
+a{
+	text-align: center;
+
+}
+
+nav > ul  li{
+	padding: 0 0 0 0;
+	text-align: center;
+	margin-right: 1em;
+	font-size: 1.5em;
+	float: right;
+}
+
+
+#foto-index{
+width: 100%;
+margin: auto;
+height: auto;
+background-color: #82c3a6;
+text-align: center;
+}
+
+
+#foto1{
+margin-top: 9px;
+margin-bottom: 9px;
+width: 80%;
+height: auto;
+box-shadow: 2px 2px 3px #02010a;
+
+}
+
+#foto-secundaria2{
+width: 100%;
+flex-direction: column;
+background-color: #d5c75f;
+text-align: center;
+}
+
+#foto2:hover{
+    border:none;
+	cursor: pointer;
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+
+}
+
+#foto-secundaria2  img{
+	width: 80%;
+	background-color: #d5c75f;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+#footer{
+	width: 100%;
+}
+
+#contenedor{
+	display: flex;
+	flex-direction: column;
+	margin-left: : 20px;
+ 	margin-right: : auto;
+ 	text-align: left;
+}
+
+#contenedor ul{
+   width: 100%;
+   margin-bottom:2%;
+	
+}
+
+/*-----------------------retratos-------------------------*/
+
+	#article2{
+		margin-top: 0 !important;
+		width: 100% !important;
+  margin-right: 0 !important;
+background-color: #d5c75f;
+text-align: center;
+align-items: center !important;
+
+}
+
+
+
+
+img[class^= 'simagen']{
+	width: 80% !important;
+	margin: 0 !important;
+	padding: 13px !important;
+	display: flex;
+	flex-direction: column;
+}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+#article2{
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+background-color: #d5c75f;
+text-align: center;
+}
+
+
+img[class^= 'simagen']{
+	width: 28%;
+	margin: 15px;
+	display:inline-flex;
+}
+
+.simagen1{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+
+.simagen2{
+	-webkit-filter:grayscale:(100%);
+	filter: grayscale(100%);
+
+}
+
+.simagen3{
+ -webkit-filter:sepia(90%);
+ filter: sepia(90%);
+}
+
+.simagen4{
+	-webkit-filter:grayscale:(100%);
+	filter:grayscale(100%);
+
+}
+
+.simagen6{
+	-webkit-filter:grayscale:(100%);
+	filter:grayscale(100%);
+}
+
+
